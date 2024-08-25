@@ -1,0 +1,50 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.dashboard {
+  margin-top: 20px;
+}
+
+.dashboard h2, .dashboard h3 {
+  color: #333;
+}
+
+.holdings, .stock-list {
+  list-style: none;
+  padding: 0;
+}
+
+.holdings li, .stock-list li {
+  background-color: #f4f4f4;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
